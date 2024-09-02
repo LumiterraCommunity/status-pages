@@ -1,22 +1,22 @@
 [
   {
     "name": "scan-api-layerlumi",
-    "url": "https://scan-api1.layerlumi.com",
-    "icon": "https://icons.duckduckgo.com/ip3/scan-api1.layerlumi.com.ico",
+    "url": "https://scan-api.layerlumi.com",
+    "icon": "https://icons.duckduckgo.com/ip3/scan-api.layerlumi.com.ico",
     "slug": "scan-api-layerlumi",
-    "status": "down",
-    "uptime": "98.58%",
-    "uptimeDay": "98.58%",
-    "uptimeWeek": "98.58%",
-    "uptimeMonth": "98.58%",
-    "uptimeYear": "98.58%",
-    "time": 895,
-    "timeDay": 895,
-    "timeWeek": 895,
-    "timeMonth": 895,
-    "timeYear": 895,
+    "status": "up",
+    "uptime": "81.80%",
+    "uptimeDay": "81.80%",
+    "uptimeWeek": "81.80%",
+    "uptimeMonth": "81.80%",
+    "uptimeYear": "81.80%",
+    "time": 997,
+    "timeDay": 997,
+    "timeWeek": 997,
+    "timeMonth": 997,
+    "timeYear": 997,
     "dailyMinutesDown": {
-      "2024-09-02": 0
+      "2024-09-02": 4
     }
   },
   {
@@ -30,11 +30,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 89,
-    "timeDay": 89,
-    "timeWeek": 89,
-    "timeMonth": 89,
-    "timeYear": 89,
+    "time": 86,
+    "timeDay": 86,
+    "timeWeek": 86,
+    "timeMonth": 86,
+    "timeYear": 86,
     "dailyMinutesDown": {}
   },
   {
@@ -48,11 +48,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 200,
-    "timeDay": 200,
-    "timeWeek": 200,
-    "timeMonth": 200,
-    "timeYear": 200,
+    "time": 250,
+    "timeDay": 250,
+    "timeWeek": 250,
+    "timeMonth": 250,
+    "timeYear": 250,
     "dailyMinutesDown": {}
   },
   {
@@ -66,11 +66,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 323,
-    "timeDay": 323,
-    "timeWeek": 323,
-    "timeMonth": 323,
-    "timeYear": 323,
+    "time": 331,
+    "timeDay": 331,
+    "timeWeek": 331,
+    "timeMonth": 331,
+    "timeYear": 331,
     "dailyMinutesDown": {}
   },
   {
