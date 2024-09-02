@@ -21,7 +21,7 @@ status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.lumiterra.net
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+  logoUrl: status-api.lumiterra.net
   name: Lumiterra Status
   introTitle: "Lumiterra Status Dashboad"
   introMessage: We monitor the Lumiterra service to guard the experience of millions of players.
@@ -30,3 +30,5 @@ status-website:
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
+    - title: Twitter
+      href: https://x.com/LumiterraGame
