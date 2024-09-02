@@ -4,7 +4,7 @@ repo: status-pages # The name of this repository
 
 sites:
   - name: scan-api-layerlumi
-    url: https://scan-api.layerlumi.com
+    url: https://scan-api1.layerlumi.com
   - name: Google
     url: https://www.google.com
   - name: Wikipedia
