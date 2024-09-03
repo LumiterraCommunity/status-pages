@@ -5,16 +5,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/scan-api.layerlumi.com.ico",
     "slug": "scan-api-layerlumi",
     "status": "up",
-    "uptime": "99.63%",
-    "uptimeDay": "99.63%",
-    "uptimeWeek": "99.63%",
-    "uptimeMonth": "99.63%",
-    "uptimeYear": "99.63%",
-    "time": 877,
-    "timeDay": 877,
-    "timeWeek": 877,
-    "timeMonth": 877,
-    "timeYear": 877,
+    "uptime": "99.64%",
+    "uptimeDay": "99.64%",
+    "uptimeWeek": "99.64%",
+    "uptimeMonth": "99.64%",
+    "uptimeYear": "99.64%",
+    "time": 921,
+    "timeDay": 921,
+    "timeWeek": 921,
+    "timeMonth": 921,
+    "timeYear": 921,
     "dailyMinutesDown": {
       "2024-09-02": 4
     }
@@ -24,19 +24,19 @@
     "url": "https://status-api.lumiterra.net/api/batch-seq-delivery?rpcApiKey=$RPC_API_KEY",
     "icon": "https://icons.duckduckgo.com/ip3/status-api.lumiterra.net.ico",
     "slug": "batch-seq-delivery",
-    "status": "down",
-    "uptime": "0.07%",
-    "uptimeDay": "0.07%",
-    "uptimeWeek": "0.07%",
-    "uptimeMonth": "0.07%",
-    "uptimeYear": "0.07%",
-    "time": 663,
-    "timeDay": 663,
-    "timeWeek": 663,
-    "timeMonth": 663,
-    "timeYear": 663,
+    "status": "up",
+    "uptime": "0.26%",
+    "uptimeDay": "0.26%",
+    "uptimeWeek": "0.26%",
+    "uptimeMonth": "0.26%",
+    "uptimeYear": "0.26%",
+    "time": 743,
+    "timeDay": 743,
+    "timeWeek": 743,
+    "timeMonth": 743,
+    "timeYear": 743,
     "dailyMinutesDown": {
-      "2024-09-03": 15
+      "2024-09-03": 20
     }
   }
 ]
