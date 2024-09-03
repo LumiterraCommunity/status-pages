@@ -6,6 +6,8 @@ sites:
   - name: scan-api-layerlumi
     url: https://scan-api.layerlumi.com
   - name: batch-seq-delivery
+    headers:
+      - "API-KEY": 123123"
     url: https://status-api.lumiterra.net/api/batch-seq-delivery
 
 status-website:
