@@ -38,7 +38,8 @@ async function _getLastTransactionEvent() {
 
 
 async function _init(req: NextApiRequest,) {
-    const apiKey = req.headers['rpc-api-key'] as string || '';
+    // const apiKey = req.headers['rpc-api-key'] as string || '';
+    const apiKey = req.query.rpcApiKey as string || '';
     provider = new ethers.JsonRpcProvider(`${RPC_NODE_URL}/${apiKey}`);
     contract = new ethers.Contract(CONTRACT_ADDRESS, CONTRACT_INTERFACE, provider);
 }
