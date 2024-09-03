@@ -6,8 +6,6 @@ sites:
   - name: scan-api-layerlumi
     url: https://scan-api.layerlumi.com
   - name: batch-seq-delivery
-    headers:
-      - "rpc-api-key": "1"
     url: https://status-api.lumiterra.net/api/batch-seq-delivery
 
 status-website:
