@@ -5,18 +5,38 @@
     "icon": "https://icons.duckduckgo.com/ip3/scan-api.layerlumi.com.ico",
     "slug": "scan-api-layerlumi",
     "status": "up",
-    "uptime": "99.61%",
-    "uptimeDay": "99.61%",
-    "uptimeWeek": "99.61%",
-    "uptimeMonth": "99.61%",
-    "uptimeYear": "99.61%",
-    "time": 891,
-    "timeDay": 891,
-    "timeWeek": 891,
-    "timeMonth": 891,
-    "timeYear": 891,
+    "uptime": "99.63%",
+    "uptimeDay": "99.63%",
+    "uptimeWeek": "99.63%",
+    "uptimeMonth": "99.63%",
+    "uptimeYear": "99.63%",
+    "time": 848,
+    "timeDay": 848,
+    "timeWeek": 848,
+    "timeMonth": 848,
+    "timeYear": 848,
     "dailyMinutesDown": {
       "2024-09-02": 4
+    }
+  },
+  {
+    "name": "batch-seq-delivery",
+    "url": "https://status-api.lumiterra.net/api/batch-seq-delivery",
+    "icon": "https://icons.duckduckgo.com/ip3/status-api.lumiterra.net.ico",
+    "slug": "batch-seq-delivery",
+    "status": "down",
+    "uptime": "16.46%",
+    "uptimeDay": "16.46%",
+    "uptimeWeek": "16.46%",
+    "uptimeMonth": "16.46%",
+    "uptimeYear": "16.46%",
+    "time": 364,
+    "timeDay": 364,
+    "timeWeek": 364,
+    "timeMonth": 364,
+    "timeYear": 364,
+    "dailyMinutesDown": {
+      "2024-09-03": 0
     }
   }
 ]
