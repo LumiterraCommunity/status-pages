@@ -10,33 +10,33 @@
     "uptimeWeek": "99.63%",
     "uptimeMonth": "99.63%",
     "uptimeYear": "99.63%",
-    "time": 824,
-    "timeDay": 824,
-    "timeWeek": 824,
-    "timeMonth": 824,
-    "timeYear": 824,
+    "time": 877,
+    "timeDay": 877,
+    "timeWeek": 877,
+    "timeMonth": 877,
+    "timeYear": 877,
     "dailyMinutesDown": {
       "2024-09-02": 4
     }
   },
   {
     "name": "batch-seq-delivery",
-    "url": "https://status-api.lumiterra.net/api/batch-seq-delivery",
+    "url": "https://status-api.lumiterra.net/api/batch-seq-delivery?rpcApiKey=$RPC_API_KEY",
     "icon": "https://icons.duckduckgo.com/ip3/status-api.lumiterra.net.ico",
     "slug": "batch-seq-delivery",
     "status": "down",
-    "uptime": "0.25%",
-    "uptimeDay": "0.25%",
-    "uptimeWeek": "0.25%",
-    "uptimeMonth": "0.25%",
-    "uptimeYear": "0.25%",
-    "time": 575,
-    "timeDay": 575,
-    "timeWeek": 575,
-    "timeMonth": 575,
-    "timeYear": 575,
+    "uptime": "0.07%",
+    "uptimeDay": "0.07%",
+    "uptimeWeek": "0.07%",
+    "uptimeMonth": "0.07%",
+    "uptimeYear": "0.07%",
+    "time": 663,
+    "timeDay": 663,
+    "timeWeek": 663,
+    "timeMonth": 663,
+    "timeYear": 663,
     "dailyMinutesDown": {
-      "2024-09-03": 8
+      "2024-09-03": 15
     }
   }
 ]
