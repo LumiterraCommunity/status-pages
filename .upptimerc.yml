@@ -12,7 +12,7 @@ status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.lumiterra.net
-  logoUrl: status-api.lumiterra.net
+  logoUrl: https://status-api.lumiterra.net/logo.png
   name: Lumiterra Status
   introTitle: "Lumiterra Status Dashboad"
   introMessage: We monitor the Lumiterra service to guard the experience of millions of players.
