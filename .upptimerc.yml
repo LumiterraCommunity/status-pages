@@ -3,10 +3,12 @@ owner: LumiterraCommunity # Your GitHub organization or username, where this rep
 repo: status-pages # The name of this repository
 
 sites:
-  - name: scan-api-layerlumi
+  - name: Lumi Layer3 Scan
     url: https://scan-api.layerlumi.com
-  - name: batch-seq-delivery
+  - name: Lumi Layer3 Rollup
     url: https://status-api.lumiterra.net/api/batch-seq-delivery?rpcApiKey=$RPC_API_KEY
+  - name: Lumi Layer3 Node
+    url: https://node.layerlumi.com/
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
