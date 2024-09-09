@@ -1,0 +1,76 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+(() => {
+var exports = {};
+exports.id = "pages/api/game-client";
+exports.ids = ["pages/api/game-client"];
+exports.modules = {
+
+/***/ "async-retry":
+/*!******************************!*\
+  !*** external "async-retry" ***!
+  \******************************/
+/***/ ((module) => {
+
+module.exports = require("async-retry");
+
+/***/ }),
+
+/***/ "next/dist/compiled/next-server/pages-api.runtime.dev.js":
+/*!**************************************************************************!*\
+  !*** external "next/dist/compiled/next-server/pages-api.runtime.dev.js" ***!
+  \**************************************************************************/
+/***/ ((module) => {
+
+module.exports = require("next/dist/compiled/next-server/pages-api.runtime.dev.js");
+
+/***/ }),
+
+/***/ "node-fetch":
+/*!*****************************!*\
+  !*** external "node-fetch" ***!
+  \*****************************/
+/***/ ((module) => {
+
+module.exports = import("node-fetch");;
+
+/***/ }),
+
+/***/ "(api)/./node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js?kind=PAGES_API&page=%2Fapi%2Fgame-client&preferredRegion=&absolutePagePath=.%2Fpages%2Fapi%2Fgame-client.ts&middlewareConfigBase64=e30%3D!":
+/*!****************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js?kind=PAGES_API&page=%2Fapi%2Fgame-client&preferredRegion=&absolutePagePath=.%2Fpages%2Fapi%2Fgame-client.ts&middlewareConfigBase64=e30%3D! ***!
+  \****************************************************************************************************************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   config: () => (/* binding */ config),\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__),\n/* harmony export */   routeModule: () => (/* binding */ routeModule)\n/* harmony export */ });\n/* harmony import */ var next_dist_server_future_route_modules_pages_api_module_compiled__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/server/future/route-modules/pages-api/module.compiled */ \"(api)/./node_modules/next/dist/server/future/route-modules/pages-api/module.compiled.js\");\n/* harmony import */ var next_dist_server_future_route_modules_pages_api_module_compiled__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_dist_server_future_route_modules_pages_api_module_compiled__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_dist_server_future_route_kind__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/dist/server/future/route-kind */ \"(api)/./node_modules/next/dist/server/future/route-kind.js\");\n/* harmony import */ var next_dist_build_templates_helpers__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/dist/build/templates/helpers */ \"(api)/./node_modules/next/dist/build/templates/helpers.js\");\n/* harmony import */ var _pages_api_game_client_ts__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pages/api/game-client.ts */ \"(api)/./pages/api/game-client.ts\");\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_pages_api_game_client_ts__WEBPACK_IMPORTED_MODULE_3__]);\n_pages_api_game_client_ts__WEBPACK_IMPORTED_MODULE_3__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];\n\n\n\n// Import the userland code.\n\n// Re-export the handler (should be the default export).\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,next_dist_build_templates_helpers__WEBPACK_IMPORTED_MODULE_2__.hoist)(_pages_api_game_client_ts__WEBPACK_IMPORTED_MODULE_3__, \"default\"));\n// Re-export config.\nconst config = (0,next_dist_build_templates_helpers__WEBPACK_IMPORTED_MODULE_2__.hoist)(_pages_api_game_client_ts__WEBPACK_IMPORTED_MODULE_3__, \"config\");\n// Create and export the route module that will be consumed.\nconst routeModule = new next_dist_server_future_route_modules_pages_api_module_compiled__WEBPACK_IMPORTED_MODULE_0__.PagesAPIRouteModule({\n    definition: {\n        kind: next_dist_server_future_route_kind__WEBPACK_IMPORTED_MODULE_1__.RouteKind.PAGES_API,\n        page: \"/api/game-client\",\n        pathname: \"/api/game-client\",\n        // The following aren't used in production.\n        bundlePath: \"\",\n        filename: \"\"\n    },\n    userland: _pages_api_game_client_ts__WEBPACK_IMPORTED_MODULE_3__\n});\n\n//# sourceMappingURL=pages-api.js.map\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwaSkvLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2J1aWxkL3dlYnBhY2svbG9hZGVycy9uZXh0LXJvdXRlLWxvYWRlci9pbmRleC5qcz9raW5kPVBBR0VTX0FQSSZwYWdlPSUyRmFwaSUyRmdhbWUtY2xpZW50JnByZWZlcnJlZFJlZ2lvbj0mYWJzb2x1dGVQYWdlUGF0aD0uJTJGcGFnZXMlMkZhcGklMkZnYW1lLWNsaWVudC50cyZtaWRkbGV3YXJlQ29uZmlnQmFzZTY0PWUzMCUzRCEiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7QUFBc0c7QUFDdkM7QUFDTDtBQUMxRDtBQUN1RDtBQUN2RDtBQUNBLGlFQUFlLHdFQUFLLENBQUMsc0RBQVEsWUFBWSxFQUFDO0FBQzFDO0FBQ08sZUFBZSx3RUFBSyxDQUFDLHNEQUFRO0FBQ3BDO0FBQ08sd0JBQXdCLGdIQUFtQjtBQUNsRDtBQUNBLGNBQWMseUVBQVM7QUFDdkI7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLEtBQUs7QUFDTCxZQUFZO0FBQ1osQ0FBQzs7QUFFRCxxQyIsInNvdXJjZXMiOlsid2VicGFjazovLy8/OTYwNyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBQYWdlc0FQSVJvdXRlTW9kdWxlIH0gZnJvbSBcIm5leHQvZGlzdC9zZXJ2ZXIvZnV0dXJlL3JvdXRlLW1vZHVsZXMvcGFnZXMtYXBpL21vZHVsZS5jb21waWxlZFwiO1xuaW1wb3J0IHsgUm91dGVLaW5kIH0gZnJvbSBcIm5leHQvZGlzdC9zZXJ2ZXIvZnV0dXJlL3JvdXRlLWtpbmRcIjtcbmltcG9ydCB7IGhvaXN0IH0gZnJvbSBcIm5leHQvZGlzdC9idWlsZC90ZW1wbGF0ZXMvaGVscGVyc1wiO1xuLy8gSW1wb3J0IHRoZSB1c2VybGFuZCBjb2RlLlxuaW1wb3J0ICogYXMgdXNlcmxhbmQgZnJvbSBcIi4vcGFnZXMvYXBpL2dhbWUtY2xpZW50LnRzXCI7XG4vLyBSZS1leHBvcnQgdGhlIGhhbmRsZXIgKHNob3VsZCBiZSB0aGUgZGVmYXVsdCBleHBvcnQpLlxuZXhwb3J0IGRlZmF1bHQgaG9pc3QodXNlcmxhbmQsIFwiZGVmYXVsdFwiKTtcbi8vIFJlLWV4cG9ydCBjb25maWcuXG5leHBvcnQgY29uc3QgY29uZmlnID0gaG9pc3QodXNlcmxhbmQsIFwiY29uZmlnXCIpO1xuLy8gQ3JlYXRlIGFuZCBleHBvcnQgdGhlIHJvdXRlIG1vZHVsZSB0aGF0IHdpbGwgYmUgY29uc3VtZWQuXG5leHBvcnQgY29uc3Qgcm91dGVNb2R1bGUgPSBuZXcgUGFnZXNBUElSb3V0ZU1vZHVsZSh7XG4gICAgZGVmaW5pdGlvbjoge1xuICAgICAgICBraW5kOiBSb3V0ZUtpbmQuUEFHRVNfQVBJLFxuICAgICAgICBwYWdlOiBcIi9hcGkvZ2FtZS1jbGllbnRcIixcbiAgICAgICAgcGF0aG5hbWU6IFwiL2FwaS9nYW1lLWNsaWVudFwiLFxuICAgICAgICAvLyBUaGUgZm9sbG93aW5nIGFyZW4ndCB1c2VkIGluIHByb2R1Y3Rpb24uXG4gICAgICAgIGJ1bmRsZVBhdGg6IFwiXCIsXG4gICAgICAgIGZpbGVuYW1lOiBcIlwiXG4gICAgfSxcbiAgICB1c2VybGFuZFxufSk7XG5cbi8vIyBzb3VyY2VNYXBwaW5nVVJMPXBhZ2VzLWFwaS5qcy5tYXAiXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(api)/./node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js?kind=PAGES_API&page=%2Fapi%2Fgame-client&preferredRegion=&absolutePagePath=.%2Fpages%2Fapi%2Fgame-client.ts&middlewareConfigBase64=e30%3D!\n");
+
+/***/ }),
+
+/***/ "(api)/./pages/api/game-client.ts":
+/*!**********************************!*\
+  !*** ./pages/api/game-client.ts ***!
+  \**********************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ handler)\n/* harmony export */ });\n/* harmony import */ var node_fetch__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! node-fetch */ \"node-fetch\");\n/* harmony import */ var async_retry__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! async-retry */ \"async-retry\");\n/* harmony import */ var async_retry__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(async_retry__WEBPACK_IMPORTED_MODULE_1__);\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([node_fetch__WEBPACK_IMPORTED_MODULE_0__]);\nnode_fetch__WEBPACK_IMPORTED_MODULE_0__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];\n\n\nconst urls = [\n    \"https://versions-dev.lumiterra.net/GameRes/Release/Android/VersionPolicy.json\",\n    \"https://versions-dev.lumiterra.net/GameRes/Release/IOS/VersionPolicy.json\",\n    \"https://versions-dev.lumiterra.net/GameRes/Release/MacOS/VersionPolicy.json\",\n    \"https://versions-dev.lumiterra.net/GameRes/Release/Windows64/VersionPolicy.json\"\n];\nasync function handler(req, res) {\n    const fetchWithRetry = async (url)=>{\n        try {\n            await async_retry__WEBPACK_IMPORTED_MODULE_1___default()(async ()=>{\n                const response = await (0,node_fetch__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(url);\n                if (response.status !== 200) throw new Error(`Status: ${response.status}`);\n                await response.json();\n            // 重试一次避免网络抖动带来的误差\n            }, {\n                retries: 1\n            });\n            return {\n                url,\n                success: true\n            };\n        } catch (error) {\n            return {\n                url,\n                success: false,\n                error: error.message\n            };\n        }\n    };\n    const results = await Promise.all(urls.map(fetchWithRetry));\n    const failures = results.filter((r)=>!r.success);\n    if (failures.length > 0) {\n        console.error(\"Failed URLs:\", failures);\n        res.status(500).json({\n            message: \"Some URLs failed\",\n            failures\n        });\n    } else {\n        res.status(200).json({\n            message: \"All URLs succeeded\"\n        });\n    }\n}\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwaSkvLi9wYWdlcy9hcGkvZ2FtZS1jbGllbnQudHMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7OztBQUMrQjtBQUNDO0FBRWhDLE1BQU1FLE9BQU87SUFDVDtJQUNBO0lBQ0E7SUFDQTtDQUNIO0FBRWMsZUFBZUMsUUFDMUJDLEdBQW1CLEVBQ25CQyxHQUFvQjtJQUVwQixNQUFNQyxpQkFBaUIsT0FBT0M7UUFDMUIsSUFBSTtZQUNBLE1BQU1OLGtEQUFLQSxDQUFDO2dCQUNSLE1BQU1PLFdBQVcsTUFBTVIsc0RBQUtBLENBQUNPO2dCQUM3QixJQUFJQyxTQUFTQyxNQUFNLEtBQUssS0FBSyxNQUFNLElBQUlDLE1BQU0sQ0FBQyxRQUFRLEVBQUVGLFNBQVNDLE1BQU0sQ0FBQyxDQUFDO2dCQUN6RSxNQUFNRCxTQUFTRyxJQUFJO1lBQ25CLGtCQUFrQjtZQUN0QixHQUFHO2dCQUFFQyxTQUFTO1lBQUU7WUFDaEIsT0FBTztnQkFBRUw7Z0JBQUtNLFNBQVM7WUFBSztRQUNoQyxFQUFFLE9BQU9DLE9BQU87WUFDWixPQUFPO2dCQUFFUDtnQkFBS00sU0FBUztnQkFBT0MsT0FBTyxNQUFpQkMsT0FBTztZQUFDO1FBQ2xFO0lBQ0o7SUFFQSxNQUFNQyxVQUFVLE1BQU1DLFFBQVFDLEdBQUcsQ0FBQ2hCLEtBQUtpQixHQUFHLENBQUNiO0lBQzNDLE1BQU1jLFdBQVdKLFFBQVFLLE1BQU0sQ0FBQ0MsQ0FBQUEsSUFBSyxDQUFDQSxFQUFFVCxPQUFPO0lBRS9DLElBQUlPLFNBQVNHLE1BQU0sR0FBRyxHQUFHO1FBQ3JCQyxRQUFRVixLQUFLLENBQUMsZ0JBQWdCTTtRQUM5QmYsSUFBSUksTUFBTSxDQUFDLEtBQUtFLElBQUksQ0FBQztZQUFFSSxTQUFTO1lBQW9CSztRQUFTO0lBQ2pFLE9BQU87UUFDSGYsSUFBSUksTUFBTSxDQUFDLEtBQUtFLElBQUksQ0FBQztZQUFFSSxTQUFTO1FBQXFCO0lBQ3pEO0FBQ0oiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9wYWdlcy9hcGkvZ2FtZS1jbGllbnQudHM/NGUwMSJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgdHlwZSB7IE5leHRBcGlSZXF1ZXN0LCBOZXh0QXBpUmVzcG9uc2UgfSBmcm9tICduZXh0J1xuaW1wb3J0IGZldGNoIGZyb20gJ25vZGUtZmV0Y2gnO1xuaW1wb3J0IHJldHJ5IGZyb20gJ2FzeW5jLXJldHJ5JztcblxuY29uc3QgdXJscyA9IFtcbiAgICAnaHR0cHM6Ly92ZXJzaW9ucy1kZXYubHVtaXRlcnJhLm5ldC9HYW1lUmVzL1JlbGVhc2UvQW5kcm9pZC9WZXJzaW9uUG9saWN5Lmpzb24nLFxuICAgICdodHRwczovL3ZlcnNpb25zLWRldi5sdW1pdGVycmEubmV0L0dhbWVSZXMvUmVsZWFzZS9JT1MvVmVyc2lvblBvbGljeS5qc29uJyxcbiAgICAnaHR0cHM6Ly92ZXJzaW9ucy1kZXYubHVtaXRlcnJhLm5ldC9HYW1lUmVzL1JlbGVhc2UvTWFjT1MvVmVyc2lvblBvbGljeS5qc29uJyxcbiAgICAnaHR0cHM6Ly92ZXJzaW9ucy1kZXYubHVtaXRlcnJhLm5ldC9HYW1lUmVzL1JlbGVhc2UvV2luZG93czY0L1ZlcnNpb25Qb2xpY3kuanNvbidcbl07XG5cbmV4cG9ydCBkZWZhdWx0IGFzeW5jIGZ1bmN0aW9uIGhhbmRsZXIoXG4gICAgcmVxOiBOZXh0QXBpUmVxdWVzdCxcbiAgICByZXM6IE5leHRBcGlSZXNwb25zZVxuKSB7XG4gICAgY29uc3QgZmV0Y2hXaXRoUmV0cnkgPSBhc3luYyAodXJsOiBzdHJpbmcpID0+IHtcbiAgICAgICAgdHJ5IHtcbiAgICAgICAgICAgIGF3YWl0IHJldHJ5KGFzeW5jICgpID0+IHtcbiAgICAgICAgICAgICAgICBjb25zdCByZXNwb25zZSA9IGF3YWl0IGZldGNoKHVybCk7XG4gICAgICAgICAgICAgICAgaWYgKHJlc3BvbnNlLnN0YXR1cyAhPT0gMjAwKSB0aHJvdyBuZXcgRXJyb3IoYFN0YXR1czogJHtyZXNwb25zZS5zdGF0dXN9YCk7XG4gICAgICAgICAgICAgICAgYXdhaXQgcmVzcG9uc2UuanNvbigpO1xuICAgICAgICAgICAgICAgIC8vIOmHjeivleS4gOasoemBv+WFjee9kee7nOaKluWKqOW4puadpeeahOivr+W3rlxuICAgICAgICAgICAgfSwgeyByZXRyaWVzOiAxIH0pO1xuICAgICAgICAgICAgcmV0dXJuIHsgdXJsLCBzdWNjZXNzOiB0cnVlIH07XG4gICAgICAgIH0gY2F0Y2ggKGVycm9yKSB7XG4gICAgICAgICAgICByZXR1cm4geyB1cmwsIHN1Y2Nlc3M6IGZhbHNlLCBlcnJvcjogKGVycm9yIGFzIEVycm9yKS5tZXNzYWdlIH07XG4gICAgICAgIH1cbiAgICB9O1xuXG4gICAgY29uc3QgcmVzdWx0cyA9IGF3YWl0IFByb21pc2UuYWxsKHVybHMubWFwKGZldGNoV2l0aFJldHJ5KSk7XG4gICAgY29uc3QgZmFpbHVyZXMgPSByZXN1bHRzLmZpbHRlcihyID0+ICFyLnN1Y2Nlc3MpO1xuXG4gICAgaWYgKGZhaWx1cmVzLmxlbmd0aCA+IDApIHtcbiAgICAgICAgY29uc29sZS5lcnJvcihcIkZhaWxlZCBVUkxzOlwiLCBmYWlsdXJlcyk7XG4gICAgICAgIHJlcy5zdGF0dXMoNTAwKS5qc29uKHsgbWVzc2FnZTogXCJTb21lIFVSTHMgZmFpbGVkXCIsIGZhaWx1cmVzIH0pO1xuICAgIH0gZWxzZSB7XG4gICAgICAgIHJlcy5zdGF0dXMoMjAwKS5qc29uKHsgbWVzc2FnZTogXCJBbGwgVVJMcyBzdWNjZWVkZWRcIiB9KTtcbiAgICB9XG59Il0sIm5hbWVzIjpbImZldGNoIiwicmV0cnkiLCJ1cmxzIiwiaGFuZGxlciIsInJlcSIsInJlcyIsImZldGNoV2l0aFJldHJ5IiwidXJsIiwicmVzcG9uc2UiLCJzdGF0dXMiLCJFcnJvciIsImpzb24iLCJyZXRyaWVzIiwic3VjY2VzcyIsImVycm9yIiwibWVzc2FnZSIsInJlc3VsdHMiLCJQcm9taXNlIiwiYWxsIiwibWFwIiwiZmFpbHVyZXMiLCJmaWx0ZXIiLCJyIiwibGVuZ3RoIiwiY29uc29sZSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(api)/./pages/api/game-client.ts\n");
+
+/***/ })
+
+};
+;
+
+// load runtime
+var __webpack_require__ = require("../../webpack-api-runtime.js");
+__webpack_require__.C(exports);
+var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
+var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next"], () => (__webpack_exec__("(api)/./node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js?kind=PAGES_API&page=%2Fapi%2Fgame-client&preferredRegion=&absolutePagePath=.%2Fpages%2Fapi%2Fgame-client.ts&middlewareConfigBase64=e30%3D!")));
+module.exports = __webpack_exports__;
+
+})();
