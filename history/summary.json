@@ -58,19 +58,19 @@
     "url": "https://status-api.lumiterra.net/api/game-client",
     "icon": "https://icons.duckduckgo.com/ip3/status-api.lumiterra.net.ico",
     "slug": "lumi-game-client",
-    "status": "down",
-    "uptime": "0.00%",
-    "uptimeDay": "0.00%",
-    "uptimeWeek": "0.00%",
-    "uptimeMonth": "0.00%",
-    "uptimeYear": "0.00%",
-    "time": 114,
-    "timeDay": 114,
-    "timeWeek": 114,
-    "timeMonth": 114,
-    "timeYear": 114,
+    "status": "up",
+    "uptime": "2.51%",
+    "uptimeDay": "2.51%",
+    "uptimeWeek": "2.51%",
+    "uptimeMonth": "2.51%",
+    "uptimeYear": "2.51%",
+    "time": 606,
+    "timeDay": 606,
+    "timeWeek": 606,
+    "timeMonth": 606,
+    "timeYear": 606,
     "dailyMinutesDown": {
-      "2024-09-09": 0
+      "2024-09-09": 2
     }
   },
   {
