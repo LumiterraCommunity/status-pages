@@ -4,18 +4,20 @@
     "url": "https://scan-api.layerlumi.com",
     "icon": "https://icons.duckduckgo.com/ip3/scan-api.layerlumi.com.ico",
     "slug": "lumi-layer3-scan",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 986,
-    "timeDay": 640,
-    "timeWeek": 1035,
-    "timeMonth": 986,
-    "timeYear": 986,
-    "dailyMinutesDown": {}
+    "time": 987,
+    "timeDay": 824,
+    "timeWeek": 1032,
+    "timeMonth": 987,
+    "timeYear": 987,
+    "dailyMinutesDown": {
+      "2024-09-28": 0
+    }
   },
   {
     "name": "Lumi Layer3 Rollup",
