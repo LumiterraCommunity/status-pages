@@ -1,7 +1,7 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
 import fetch from 'node-fetch';
 import retry from 'async-retry';
-import { sendFeiShuNotificationWithText } from '../common/feishu-notification';
+import { sendFeiShuNotificationWithText } from '../../utils/feishu-notification';
 
 const urls = [
     'https://versions-dev.lumiterra.net/GameRes/Release/Android/VersionPolicy.json',

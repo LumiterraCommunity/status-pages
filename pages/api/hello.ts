@@ -1,8 +1,7 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import type { NextApiRequest, NextApiResponse } from 'next'
-import { sendFeiShuNotificationWithPost,sendFeiShuNotificationWithText } from '../common/feishu-notification';
+import { sendFeiShuNotificationWithPost,sendFeiShuNotificationWithText } from '../../utils/feishu-notification';
 import dayjs from 'dayjs';
-import { json } from 'stream/consumers';
 
 export default async function handler(
     req: NextApiRequest,

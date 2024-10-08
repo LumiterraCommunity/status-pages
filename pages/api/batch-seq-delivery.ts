@@ -1,6 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
 import { ethers } from 'ethers';
-import { sendFeiShuNotificationWithPost } from '../common/feishu-notification';
+import { sendFeiShuNotificationWithPost } from '../../utils/feishu-notification';
 import dayjs from 'dayjs';
 
 

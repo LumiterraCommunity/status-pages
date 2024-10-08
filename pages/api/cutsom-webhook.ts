@@ -1,5 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
-import { sendFeiShuNotificationWithText } from '../common/feishu-notification';
+import { sendFeiShuNotificationWithText } from '../../utils/feishu-notification';
 
 export default async function handler(
     req: NextApiRequest,
@@ -7,14 +7,14 @@ export default async function handler(
 ) {
     console.log("req.body:::",req.body)
     res.send("hello,lumiterra");
-    // await sendFeiShuNotificationWithText(
-    //    JSON.stringify(req.query)
-    // );
+    await sendFeiShuNotificationWithText(
+       JSON.stringify(req.query)
+    );
 
-    // if(req.body){
-    //     await sendFeiShuNotificationWithText(
-    //         JSON.stringify(req.body)
-    //     );
-    // }
+    if(req.body){
+        await sendFeiShuNotificationWithText(
+            JSON.stringify(req.body)
+        );
+    }
 
 }
