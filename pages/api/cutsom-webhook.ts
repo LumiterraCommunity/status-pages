@@ -6,10 +6,13 @@ export default async function handler(
     res: NextApiResponse
 ) {
     console.log("req.body:::",req.body)
+    console.log("req.query:::",req.query)
     res.send("hello,lumiterra");
-    await sendFeiShuNotificationWithText(
+    if(req.query){
+      await sendFeiShuNotificationWithText(
        JSON.stringify(req.query)
     );
+    }
 
     if(req.body){
         await sendFeiShuNotificationWithText(
