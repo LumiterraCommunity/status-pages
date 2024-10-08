@@ -2,9 +2,6 @@ import axios from 'axios';
 import retry from 'async-retry';
 import crypto from 'crypto';
 
-const feiShuWebhook = 'https://open.feishu.cn/open-apis/bot/v2/hook/1e8d7ce6-a8d7-4dae-b33a-a7a5907b344e';
-// const secret = 'ZmV6XamWqJTmIgEQUvGgSh'; 
-
 const feiShuWebhookConfig = {
   "test":{
     secret: process.env.FEISHU_SECRET_TEST,

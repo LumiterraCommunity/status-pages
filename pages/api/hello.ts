@@ -11,6 +11,7 @@ export default async function handler(
 
     const {message} = req.body;
     console.log("message:",req.query)
+    console.log("env value:",process.env.FEISHU_SECRET_TEST)
 
     const blockTime = 1717200000;
     await sendFeiShuNotificationWithPost(
