@@ -1,6 +1,7 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
 import fetch from 'node-fetch';
 import retry from 'async-retry';
+import { sendFeiShuNotificationWithText } from '../common/feishu-notification';
 
 const urls = [
     'https://versions-dev.lumiterra.net/GameRes/Release/Android/VersionPolicy.json',
@@ -33,6 +34,12 @@ export default async function handler(
     if (failures.length > 0) {
         console.error("Failed URLs:", failures);
         res.status(500).json({ message: "Some URLs failed", failures });
+        // 不同的 URL 失败，发送不同的通知
+        failures.forEach(failure => {
+            sendFeiShuNotificationWithText(
+                `监控URL: ${failure.url} 响应失败: ${failure.error}`
+            );
+        });
     } else {
         res.status(200).json({ message: "All URLs succeeded" });
     }
