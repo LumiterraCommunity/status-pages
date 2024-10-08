@@ -2,12 +2,16 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
 import { sendFeiShuNotificationWithPost,sendFeiShuNotificationWithText } from '../common/feishu-notification';
 import dayjs from 'dayjs';
+import { json } from 'stream/consumers';
 
 export default async function handler(
     req: NextApiRequest,
     res: NextApiResponse
 ) {
     res.send("hello,lumiterra");
+
+    const {message} = req.body;
+    console.log("message:",req.query)
 
     const blockTime = 1717200000;
     await sendFeiShuNotificationWithPost(
@@ -30,6 +34,6 @@ export default async function handler(
     );
 
     await sendFeiShuNotificationWithText(
-        "hello,lumiterra"
+        JSON.stringify(req.query)
     );
 }
