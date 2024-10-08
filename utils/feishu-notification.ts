@@ -26,6 +26,8 @@ function genSign(secret: string, timestamp: number): string {
 }
 
 async function sendFeiShuNotificationWithPost(message: any): Promise<void> {
+  console.log("secret:",secret)
+  console.log("webhookUrl:",webhookUrl)
   const timestamp = Math.floor(Date.now() / 1000);
   const sign = genSign(secret, timestamp);
 

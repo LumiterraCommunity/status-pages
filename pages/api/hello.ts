@@ -9,7 +9,6 @@ export default async function handler(
 ) {
     res.send("hello,lumiterra");
 
-    const {message} = req.body;
     console.log("message:",req.query)
     console.log("env value:",process.env.FEISHU_SECRET_TEST)
 
