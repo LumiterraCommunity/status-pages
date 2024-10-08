@@ -7,11 +7,6 @@ export default async function handler(
     req: NextApiRequest,
     res: NextApiResponse
 ) {
-    res.send("hello,lumiterra");
-
-    console.log("message:",req.query)
-    console.log("env value:",process.env.FEISHU_SECRET_TEST)
-
     const blockTime = 1717200000;
     await sendFeiShuNotificationWithPost(
         {
@@ -35,4 +30,9 @@ export default async function handler(
     await sendFeiShuNotificationWithText(
         JSON.stringify(req.query)
     );
+    
+    res.send("hello,lumiterra");
+
+    console.log("message:",req.query)
+    console.log("env value:",process.env.FEISHU_SECRET_TEST)
 }
