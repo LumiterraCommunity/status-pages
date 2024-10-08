@@ -3,20 +3,23 @@ import retry from 'async-retry';
 import crypto from 'crypto';
 
 const feiShuWebhook = 'https://open.feishu.cn/open-apis/bot/v2/hook/1e8d7ce6-a8d7-4dae-b33a-a7a5907b344e';
-const secret = 'ZmV6XamWqJTmIgEQUvGgSh'; 
+// const secret = 'ZmV6XamWqJTmIgEQUvGgSh'; 
 
-const feiShuWebhookConfig = [
-  {
-    // test 
+const feiShuWebhookConfig = {
+  "test":{
     secret: process.env.FEISHU_SECRET_TEST,
     webhook: 'https://open.feishu.cn/open-apis/bot/v2/hook/1e8d7ce6-a8d7-4dae-b33a-a7a5907b344e'
   },
-  {
-    // develop group
-    secret: process.env.FEISHU_SECRET_DEV,
+ "develop": {
+  // develop group
+  secret: process.env.FEISHU_SECRET_DEV,
     webhook: 'https://open.feishu.cn/open-apis/bot/v2/hook/886211f9-dab3-47e5-9112-f686e367224a'
   }
-]
+}
+
+const envType = "test"
+const secret = feiShuWebhookConfig[envType].secret
+const webhookUrl = feiShuWebhookConfig[envType].webhook
 
 function genSign(secret: string, timestamp: number): string {
   const stringToSign = `${timestamp}\n${secret}`;
@@ -39,7 +42,7 @@ async function sendFeiShuNotificationWithPost(message: any): Promise<void> {
   };
 
   await retry(async () => {
-    const response = await axios.post(feiShuWebhook,payload)
+    const response = await axios.post(webhookUrl,payload)
 
     if (response.status !== 200) {
       throw new Error(`Failed to send notification: ${response.statusText}`);
@@ -59,7 +62,7 @@ async function sendFeiShuNotificationWithText(message: any): Promise<void> {
     };
   
     await retry(async () => {
-      const response = await axios.post(feiShuWebhook,payload)
+      const response = await axios.post(webhookUrl,payload)
   
       if (response.status !== 200) {
         throw new Error(`Failed to send notification: ${response.statusText}`);
