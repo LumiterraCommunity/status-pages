@@ -1,6 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
 import { ethers } from 'ethers';
-import { sendFeiShuNotification } from '../common/feishu-notification';
+import { sendFeiShuNotificationWithPost } from '../common/feishu-notification';
 import dayjs from 'dayjs';
 
 
@@ -62,7 +62,7 @@ export default async function handler(
             if (currentTime - block.timestamp > MAX_DELAY_TIME) {
                 res.status(403).send("Too long no block");
 
-                await sendFeiShuNotification(
+                await sendFeiShuNotificationWithPost(
                     {
                         title: "❌ Lumi Layer3 Rollup 出块异常",
                         content: [
