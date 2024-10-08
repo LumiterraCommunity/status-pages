@@ -1,5 +1,7 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
 import { ethers } from 'ethers';
+import { sendFeiShuNotification } from '../common/feishu-notification';
+import dayjs from 'dayjs';
 
 
 const RPC_NODE_URL = 'https://arb-mainnet.g.alchemy.com/v2';
@@ -59,6 +61,25 @@ export default async function handler(
             const currentTime = Math.floor(Date.now() / 1000);
             if (currentTime - block.timestamp > MAX_DELAY_TIME) {
                 res.status(403).send("Too long no block");
+
+                await sendFeiShuNotification(
+                    {
+                        title: "❌ Lumi Layer3 Rollup 出块异常",
+                        content: [
+                         [
+                            {
+                                "tag": "text",
+                                "text": "上次出块时间：" + dayjs(block.timestamp * 1000).format('YYYY-MM-DD HH:mm:ss')
+                            },
+                            {
+                                "tag": "a",
+                                "text": "GitHub Issue",
+                                "href": "https://github.com/LumiterraCommunity/status-pages/issues"
+                            }
+                         ]
+                        ]
+                    }
+                );
             } else {
                 res.send("ok");
             }
@@ -66,5 +87,18 @@ export default async function handler(
     } catch (error) {
         console.log("error:::", error);
         res.status(500).send("Internal server error");
+        await sendFeiShuNotification(
+            {
+                title: "❌ Lumi Layer3 Rollup 监控API异常",
+                content: [
+                 [
+                    {
+                        "tag": "text",
+                        "text": "error:" + String(error)
+                    },
+                 ]
+                ]
+            }
+        );
     }
 }
