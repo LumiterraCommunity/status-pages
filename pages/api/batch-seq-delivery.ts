@@ -87,7 +87,7 @@ export default async function handler(
     } catch (error) {
         console.log("error:::", error);
         res.status(500).send("Internal server error");
-        await sendFeiShuNotification(
+        await sendFeiShuNotificationWithPost(
             {
                 title: "❌ Lumi Layer3 Rollup 监控API异常",
                 content: [
