@@ -5,6 +5,19 @@ import crypto from 'crypto';
 const feiShuWebhook = 'https://open.feishu.cn/open-apis/bot/v2/hook/1e8d7ce6-a8d7-4dae-b33a-a7a5907b344e';
 const secret = 'ZmV6XamWqJTmIgEQUvGgSh'; 
 
+const feiShuWebhookConfig = [
+  {
+    // test 
+    secret: process.env.FEISHU_SECRET_TEST,
+    webhook: 'https://open.feishu.cn/open-apis/bot/v2/hook/1e8d7ce6-a8d7-4dae-b33a-a7a5907b344e'
+  },
+  {
+    // develop group
+    secret: process.env.FEISHU_SECRET_DEV,
+    webhook: 'https://open.feishu.cn/open-apis/bot/v2/hook/886211f9-dab3-47e5-9112-f686e367224a'
+  }
+]
+
 function genSign(secret: string, timestamp: number): string {
   const stringToSign = `${timestamp}\n${secret}`;
   const hmac = crypto.createHmac('sha256', stringToSign);
