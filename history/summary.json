@@ -26,11 +26,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/status-api.lumiterra.net.ico",
     "slug": "lumi-layer3-rollup",
     "status": "up",
-    "uptime": "98.95%",
+    "uptime": "98.96%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "98.38%",
-    "uptimeYear": "98.95%",
+    "uptimeYear": "98.96%",
     "time": 471,
     "timeDay": 405,
     "timeWeek": 467,
@@ -96,6 +96,24 @@
     "timeWeek": 318,
     "timeMonth": 353,
     "timeYear": 349,
+    "dailyMinutesDown": {}
+  },
+  {
+    "name": "Game NFT Metadata",
+    "url": "https://graphql-service-release.layerlumi.com/metadata/268650256",
+    "icon": "https://icons.duckduckgo.com/ip3/graphql-service-release.layerlumi.com.ico",
+    "slug": "game-nft-metadata",
+    "status": "up",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 433,
+    "timeDay": 433,
+    "timeWeek": 433,
+    "timeMonth": 433,
+    "timeYear": 433,
     "dailyMinutesDown": {}
   }
 ]
