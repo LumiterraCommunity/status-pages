@@ -39,7 +39,7 @@ jobs:
         env:
           GH_PAT: ${{ secrets.GH_PAT || github.token }}
       - name: Update response time
-        uses: LumiterraCommunity/uptime-monitor@vmaster
+        uses: LumiterraCommunity/uptime-monitor@master
         with:
           command: "response-time"
         env:
