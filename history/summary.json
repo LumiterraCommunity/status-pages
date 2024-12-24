@@ -5,11 +5,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/scan-api.layerlumi.com.ico",
     "slug": "lumi-layer3-scan",
     "status": "up",
-    "uptime": "99.49%",
+    "uptime": "99.50%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "99.49%",
+    "uptimeYear": "99.50%",
     "time": 861,
     "timeDay": 1062,
     "timeWeek": 748,
@@ -134,22 +134,22 @@
   },
   {
     "name": "Debug Google",
-    "url": "https://www.google1.com/webhp",
-    "icon": "https://icons.duckduckgo.com/ip3/www.google1.com.ico",
+    "url": "https://www.google.com/webhp",
+    "icon": "https://icons.duckduckgo.com/ip3/www.google.com.ico",
     "slug": "debug-google",
-    "status": "down",
+    "status": "up",
     "uptime": "0.00%",
     "uptimeDay": "0.00%",
     "uptimeWeek": "0.00%",
     "uptimeMonth": "0.00%",
     "uptimeYear": "0.00%",
-    "time": 0,
-    "timeDay": 0,
-    "timeWeek": 0,
-    "timeMonth": 0,
-    "timeYear": 0,
+    "time": 90,
+    "timeDay": 90,
+    "timeWeek": 90,
+    "timeMonth": 90,
+    "timeYear": 90,
     "dailyMinutesDown": {
-      "2024-12-24": 1
+      "2024-12-24": 30
     }
   }
 ]
