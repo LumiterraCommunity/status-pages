@@ -131,5 +131,25 @@
       "2024-11-08": 6,
       "2024-11-06": 30
     }
+  },
+  {
+    "name": "Debug Google",
+    "url": "https://www.google1.com/webhp",
+    "icon": "https://icons.duckduckgo.com/ip3/www.google1.com.ico",
+    "slug": "debug-google",
+    "status": "down",
+    "uptime": "0.00%",
+    "uptimeDay": "0.00%",
+    "uptimeWeek": "0.00%",
+    "uptimeMonth": "0.00%",
+    "uptimeYear": "0.00%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
+    "dailyMinutesDown": {
+      "2024-12-24": 1
+    }
   }
 ]
