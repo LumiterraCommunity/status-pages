@@ -1,7 +1,7 @@
-url: https://www.google2.com/webhp
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2024-12-30T03:08:13.631Z
+url: https://www.google.com/webhp
+status: up
+code: 200
+responseTime: 87
+lastUpdated: 2024-12-30T03:23:13.193Z
 startTime: 2024-12-24T08:03:12.958Z
 generator: Upptime <https://github.com/upptime/upptime>
