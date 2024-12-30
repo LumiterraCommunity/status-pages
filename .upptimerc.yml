@@ -16,7 +16,7 @@ sites:
   - name: Game NFT Metadata
     url: https://graphql-service-release.layerlumi.com/metadata/268650256
   - name: Debug Google
-    url: https://www.google.com/webhp
+    url: https://www.google2.com/webhp
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
