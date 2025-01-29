@@ -1,7 +1,7 @@
 url: https://status-api.lumiterra.net/api/batch-seq-delivery?rpcApiKey=$RPC_API_KEY
 status: up
 code: 200
-responseTime: 338
-lastUpdated: 2025-01-28T23:14:55.727Z
+responseTime: 721
+lastUpdated: 2025-01-29T23:14:57.682Z
 startTime: 2024-09-06T06:12:54.059Z
 generator: Upptime <https://github.com/upptime/upptime>
