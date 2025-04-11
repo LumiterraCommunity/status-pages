@@ -48,19 +48,19 @@
     "url": "https://node.layerlumi.com/",
     "icon": "https://icons.duckduckgo.com/ip3/node.layerlumi.com.ico",
     "slug": "lumi-layer3-node",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 574,
-    "timeDay": 302,
-    "timeWeek": 296,
-    "timeMonth": 528,
-    "timeYear": 574,
+    "status": "up",
+    "uptime": "99.99%",
+    "uptimeDay": "97.57%",
+    "uptimeWeek": "99.65%",
+    "uptimeMonth": "99.92%",
+    "uptimeYear": "99.99%",
+    "time": 573,
+    "timeDay": 330,
+    "timeWeek": 306,
+    "timeMonth": 524,
+    "timeYear": 573,
     "dailyMinutesDown": {
-      "2025-04-11": 0
+      "2025-04-11": 35
     }
   },
   {
