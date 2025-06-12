@@ -90,19 +90,19 @@
     "url": "https://firebasestorage.googleapis.com/v0/b/lumiterra-c75ce.appspot.com/o/Logs%2FPing.txt?alt=media&token=dd567d27-424a-4228-af5b-7026fc8569ea",
     "icon": "https://icons.duckduckgo.com/ip3/firebasestorage.googleapis.com.ico",
     "slug": "lumi-game-client-log",
-    "status": "down",
+    "status": "up",
     "uptime": "99.99%",
-    "uptimeDay": "96.90%",
-    "uptimeWeek": "99.56%",
-    "uptimeMonth": "99.90%",
+    "uptimeDay": "96.27%",
+    "uptimeWeek": "99.47%",
+    "uptimeMonth": "99.88%",
     "uptimeYear": "99.99%",
-    "time": 820,
-    "timeDay": 8149,
-    "timeWeek": 6207,
-    "timeMonth": 3300,
-    "timeYear": 820,
+    "time": 819,
+    "timeDay": 7750,
+    "timeWeek": 5982,
+    "timeMonth": 3244,
+    "timeYear": 819,
     "dailyMinutesDown": {
-      "2025-06-12": 46
+      "2025-06-12": 55
     }
   },
   {
