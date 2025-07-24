@@ -14,7 +14,7 @@ const feiShuWebhookConfig = {
   }
 }
 
-const envType = "test"
+const envType = "develop"
 const secret = feiShuWebhookConfig[envType].secret
 const webhookUrl = feiShuWebhookConfig[envType].webhook
 
@@ -52,17 +52,16 @@ async function sendFeiShuNotificationWithPost(message: any): Promise<void> {
 async function sendFeiShuNotificationWithText(message: any): Promise<void> {
     const timestamp = Math.floor(Date.now() / 1000);
     const sign = genSign(secret, timestamp);
-  
+
     const payload = {
       timestamp: timestamp,
       sign: sign,
       msg_type: 'text',
       content: { text: message }
     };
-  
+
     await retry(async () => {
       const response = await axios.post(webhookUrl,payload)
-  
       if (response.status !== 200) {
         throw new Error(`Failed to send notification: ${response.statusText}`);
       }
