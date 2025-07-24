@@ -5,12 +5,12 @@ import crypto from 'crypto';
 const feiShuWebhookConfig = {
   "test":{
     secret: process.env.FEISHU_SECRET_TEST,
-    webhook: 'https://open.feishu.cn/open-apis/bot/v2/hook/1e8d7ce6-a8d7-4dae-b33a-a7a5907b344e'
+    webhook: 'https://open.feishu.cn/open-apis/bot/v2/hook/1b9f7359-8f88-4bc4-ad46-d0aa41d5e5f9'
   },
  "develop": {
   // develop group
   secret: process.env.FEISHU_SECRET_DEV,
-    webhook: 'https://open.feishu.cn/open-apis/bot/v2/hook/886211f9-dab3-47e5-9112-f686e367224a'
+     webhook: 'https://open.feishu.cn/open-apis/bot/v2/hook/886211f9-dab3-47e5-9112-f686e367224a'
   }
 }
 
@@ -61,7 +61,8 @@ async function sendFeiShuNotificationWithText(message: any): Promise<void> {
     };
 
     await retry(async () => {
-      const response = await axios.post(webhookUrl,payload)
+      const response = await axios.post(webhookUrl,payload);
+      console.log("response:",response)
       if (response.status !== 200) {
         throw new Error(`Failed to send notification: ${response.statusText}`);
       }
