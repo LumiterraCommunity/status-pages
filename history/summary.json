@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.84%",
-    "time": 818,
-    "timeDay": 492,
-    "timeWeek": 658,
-    "timeMonth": 635,
-    "timeYear": 818,
+    "time": 819,
+    "timeDay": 1025,
+    "timeWeek": 718,
+    "timeMonth": 658,
+    "timeYear": 819,
     "dailyMinutesDown": {
       "2025-08-04": 40,
       "2025-03-23": 15,
@@ -34,8 +34,8 @@
     "uptimeMonth": "99.89%",
     "uptimeYear": "99.77%",
     "time": 562,
-    "timeDay": 691,
-    "timeWeek": 661,
+    "timeDay": 701,
+    "timeWeek": 669,
     "timeMonth": 946,
     "timeYear": 561,
     "dailyMinutesDown": {
@@ -75,11 +75,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
-    "time": 535,
-    "timeDay": 302,
-    "timeWeek": 467,
-    "timeMonth": 482,
-    "timeYear": 535,
+    "time": 534,
+    "timeDay": 277,
+    "timeWeek": 449,
+    "timeMonth": 479,
+    "timeYear": 533,
     "dailyMinutesDown": {
       "2025-04-11": 35
     }
@@ -96,9 +96,9 @@
     "uptimeMonth": "99.91%",
     "uptimeYear": "99.79%",
     "time": 865,
-    "timeDay": 554,
-    "timeWeek": 667,
-    "timeMonth": 715,
+    "timeDay": 573,
+    "timeWeek": 671,
+    "timeMonth": 714,
     "timeYear": 865,
     "dailyMinutesDown": {
       "2025-09-08": 5,
@@ -120,8 +120,7 @@
       "2025-07-12": 1,
       "2025-07-11": 5,
       "2024-11-13": 658,
-      "2024-11-12": 374,
-      "2024-09-09": 2
+      "2024-11-12": 374
     }
   },
   {
@@ -135,11 +134,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
-    "time": 731,
-    "timeDay": 229,
-    "timeWeek": 367,
+    "time": 730,
+    "timeDay": 484,
+    "timeWeek": 392,
     "timeMonth": 546,
-    "timeYear": 731,
+    "timeYear": 730,
     "dailyMinutesDown": {
       "2025-06-12": 55
     }
@@ -150,16 +149,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/graphql-service-release.layerlumi.com.ico",
     "slug": "game-nft-metadata",
     "status": "up",
-    "uptime": "95.10%",
+    "uptime": "95.11%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.98%",
-    "uptimeYear": "95.10%",
-    "time": 722,
-    "timeDay": 158,
-    "timeWeek": 183,
+    "uptimeYear": "95.11%",
+    "time": 721,
+    "timeDay": 234,
+    "timeWeek": 190,
     "timeMonth": 443,
-    "timeYear": 722,
+    "timeYear": 721,
     "dailyMinutesDown": {
       "2025-08-25": 5,
       "2025-08-12": 5,
