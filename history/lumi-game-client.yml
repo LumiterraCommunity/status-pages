@@ -1,7 +1,7 @@
 url: https://status-api.lumiterra.net/api/game-client
-status: up
-code: 200
-responseTime: 744
-lastUpdated: 2025-10-05T23:14:15.142Z
+status: down
+code: 500
+responseTime: 2039
+lastUpdated: 2025-10-06T19:43:20.650Z
 startTime: 2024-09-09T03:21:27.262Z
 generator: Upptime <https://github.com/upptime/upptime>
