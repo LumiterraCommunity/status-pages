@@ -127,7 +127,7 @@
     "timeMonth": 1859,
     "timeYear": 925,
     "dailyMinutesDown": {
-      "2025-11-18": 889,
+      "2025-11-18": 894,
       "2025-11-17": 1440,
       "2025-11-16": 1440,
       "2025-11-15": 1440,
@@ -229,19 +229,19 @@
     "url": "https://graphql-service-release.layerlumi.com/metadata/268650256",
     "icon": "https://icons.duckduckgo.com/ip3/graphql-service-release.layerlumi.com.ico",
     "slug": "game-nft-metadata-v1",
-    "status": "down",
-    "uptime": "8.43%",
-    "uptimeDay": "8.43%",
-    "uptimeWeek": "8.43%",
-    "uptimeMonth": "8.43%",
-    "uptimeYear": "8.43%",
-    "time": 134,
-    "timeDay": 134,
-    "timeWeek": 134,
-    "timeMonth": 134,
-    "timeYear": 134,
+    "status": "up",
+    "uptime": "8.32%",
+    "uptimeDay": "8.32%",
+    "uptimeWeek": "8.32%",
+    "uptimeMonth": "8.32%",
+    "uptimeYear": "8.32%",
+    "time": 149,
+    "timeDay": 149,
+    "timeWeek": 149,
+    "timeMonth": 149,
+    "timeYear": 149,
     "dailyMinutesDown": {
-      "2025-11-18": 92
+      "2025-11-18": 97
     }
   }
 ]
