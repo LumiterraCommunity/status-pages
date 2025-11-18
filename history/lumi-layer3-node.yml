@@ -1,7 +1,7 @@
 url: https://node.layerlumi.com/
-status: up
-code: 200
-responseTime: 774
-lastUpdated: 2025-11-18T11:33:24.073Z
+status: down
+code: 500
+responseTime: 171
+lastUpdated: 2025-11-18T11:43:25.387Z
 startTime: 2024-09-06T06:12:55.468Z
 generator: Upptime <https://github.com/upptime/upptime>
