@@ -17,6 +17,8 @@ sites:
     url: https://graphql-service-release.layerlumi.com/metadata/268650256
   - name: The Web3 V2
     url: https://web3-service-v2-release.layerlumi.com
+  - name: Game NFT Metadata V2
+    value: https://graphql-service-v2-release.layerlumi.com/metadata/268665104
   - name: Debug service
     url: https://google.com
 
