@@ -14,7 +14,7 @@ export default async function handler(
 ) {
     try {
         // 从环境变量获取配置
-        const rpcUrl = process.env.MONAD_RPC_URL;
+        let rpcUrl = process.env.MONAD_RPC_URL;
         let accountAddress = "";
         if (req.query.monadGameRollupAccountAddress) {
             accountAddress = req.query.monadGameRollupAccountAddress as string;
@@ -23,9 +23,9 @@ export default async function handler(
         }
 
         if (!rpcUrl) {
-            return res.status(500).json({ 
-                error: 'Missing required environment variable: MONAD_RPC_URL' 
-            });
+            rpcUrl = "https://rpc1.monad.xyz";
+        } else {
+            rpcUrl = process.env.MONAD_RPC_URL;
         }
 
         if (!accountAddress) {
