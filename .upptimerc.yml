@@ -19,6 +19,8 @@ sites:
     url: https://web3-service-v2-release.layerlumi.com
   - name: Game NFT Metadata V2
     url: https://graphql-service-v2-release.layerlumi.com/metadata/268665104
+  - name: Monad Balance Game Rollup
+    url: https://status-api.lumiterra.net/api/monad-balance-game-rollup
   - name: Debug service
     url: https://google.com
 
