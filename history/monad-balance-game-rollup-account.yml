@@ -1,7 +1,7 @@
 url: https://status-api.lumiterra.net/api/monad-balance-game-rollup
-status: down
-code: 403
-responseTime: 10
-lastUpdated: 2025-12-14T23:38:20.582Z
+status: up
+code: 200
+responseTime: 391
+lastUpdated: 2025-12-14T23:42:48.779Z
 startTime: 2025-12-09T03:53:32.834Z
 generator: Upptime <https://github.com/upptime/upptime>
