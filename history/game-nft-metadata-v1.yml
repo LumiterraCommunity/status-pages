@@ -1,7 +1,7 @@
 url: https://graphql-service-release.layerlumi.com/metadata/268650256
-status: down
-code: 503
-responseTime: 157
-lastUpdated: 2026-01-12T23:03:22.664Z
+status: up
+code: 200
+responseTime: 216
+lastUpdated: 2026-01-12T23:08:27.544Z
 startTime: 2025-11-18T13:08:15.223Z
 generator: Upptime <https://github.com/upptime/upptime>
