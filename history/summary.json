@@ -31,17 +31,17 @@
     "url": "https://status-api.lumiterra.net/api/batch-seq-delivery?rpcApiKey=$RPC_API_KEY",
     "icon": "https://icons.duckduckgo.com/ip3/status-api.lumiterra.net.ico",
     "slug": "lumi-layer3-rollup",
-    "status": "up",
+    "status": "down",
     "uptime": "99.73%",
-    "uptimeDay": "99.30%",
+    "uptimeDay": "99.28%",
     "uptimeWeek": "99.80%",
     "uptimeMonth": "98.44%",
     "uptimeYear": "99.59%",
     "time": 678,
-    "timeDay": 862,
-    "timeWeek": 775,
-    "timeMonth": 640,
-    "timeYear": 716,
+    "timeDay": 901,
+    "timeWeek": 795,
+    "timeMonth": 650,
+    "timeYear": 717,
     "dailyMinutesDown": {
       "2026-03-12": 10,
       "2026-03-06": 10,
@@ -108,8 +108,7 @@
       "2025-09-06": 7,
       "2025-08-31": 5,
       "2025-08-30": 11,
-      "2025-08-25": 2,
-      "2025-08-23": 4
+      "2025-08-25": 2
     }
   },
   {
@@ -403,7 +402,7 @@
     "timeMonth": 126,
     "timeYear": 133,
     "dailyMinutesDown": {
-      "2026-03-12": 987,
+      "2026-03-12": 992,
       "2026-03-11": 1440,
       "2026-03-10": 1440,
       "2026-03-09": 1440,
