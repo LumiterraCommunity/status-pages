@@ -1,7 +1,7 @@
 url: https://scan-api.layerlumi.com
 status: down
-code: 500
-responseTime: 3152
-lastUpdated: 2026-05-11T10:02:01.380Z
+code: 503
+responseTime: 741
+lastUpdated: 2026-05-11T23:57:27.628Z
 startTime: 2024-09-06T06:12:52.447Z
 generator: Upptime <https://github.com/upptime/upptime>
